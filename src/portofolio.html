@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/css/portfolio.css">
+    <title>Portfolio</title>
+    <script src="https://kit.fontawesome.com/1bbc08201d.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="/images/logo.jpg" class="logo" alt="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Skills</a></li>
+                    <li><a href="#portfolio">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Student</p>
+                <h1>Hey, I'm <span>Lalith Sai</span><br>I am a Web Developer</h1>
+            </div>
+        </div>
+    </div>
+    <!-- ---------about------------>
+    <div id="about">
+        <div class="row">
+            <div class="about-col-1">
+                <h1 class="sub-title">About Me</h1>
+                <p class="brief">I'm a passionate web developer enthusiast and an Information Technology student at VNR Vignana Jyothi
+                    Institute of Engineering and Technology. I actively contribute as a member of the college's Social
+                    Media Club, handling platforms like Instagram, YouTube, and LinkedIn to enhance our campus's digital
+                    presence. With a strong foundation in full-stack development and a flair for creativity, I thrive in
+                    collaborative and tech-driven environments.
+                </p>
+                <img src="/images/user.jpg" class="user-mar" width="25%">
+            </div>
+
+            <div class="about-col-2">
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Web Development</span><br>Web Page Development</li>
+                        <li><span>C Program</span><br>Problem Solving</li>
+                        <li><span>Python</span><br>Problem Solving</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2025-current</span><br>No Experience</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2023</span><br>Intermediate from SRI CHAITANYA vijayawada</li>
+                        <li><span>2021</span><br>schooling from OXFORD Kandukur</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ---------------services----------------------------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Skills</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Desigh</h2>
+                    <p class="justify-para">I solve web design challenges by combining creativity with analytical
+                        thinking, ensuring
+                        responsive, user-friendly, and visually appealing layouts. From fixing UI issues to optimizing
+                        performance, I focus on delivering smooth and effective user experiences.</p>
+                    <!-- <a href="#">Learn more</a> -->
+                </div>
+                <div>
+                    <i class="fa-solid fa-c"></i>
+                    <h2>C Program</h2>
+                    <p class="justify-para">Proficient in C programming with strong problem-solving skills, especially
+                        in writing efficient
+                        and structured code. Experienced in handling core concepts like pointers, arrays, and memory
+                        management through various algorithmic challenges.
+                    </p>
+                    <!-- <a href="#">Learn more</a> -->
+                </div>
+                <div>
+                    <i class="fa-brands fa-python"></i>
+                    <h2>Python</h2>
+                    <p class="justify-para">Skilled in solving complex problems using Python by applying core concepts
+                        like data structures,
+                        OOP, and libraries like NumPy. I write clean, efficient code to build scalable and
+                        logical solutions.</p>
+                    <!-- <a href="#">Learn more</a> -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- --------------portfolio-------------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="/images/work-1.png">
+                    <div class="layer">
+                        <h3>Music Streaming Web Application (MERN)</h3>
+                        <p class="justify-para"> Created a basic hospital management system to store
+                            and manage patient records. It allows adding, updat
+                            ing, and deleting records using structured data han
+                            dling. Focuses on patient records handling</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="/images/work-2.png">
+                    <div class="layer">
+                        <h3> Polynomial Representation (DSA, C)</h3>
+                        <p class="justify-para"> Implemented a single linked list to store and manipu
+                            late polynomials using power notation. Supports poly
+                            nomial addition and evaluation with dynamic memory
+                            allocation.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="/images/work-3.png">
+                    <div class="layer">
+                        <h3>Measures Calculator (Python)</h3>
+                        <p class="justify-para"> Developed a tool to compute distance calculations and
+                            similarity measures efficiently. It provides quick and
+                            accurate results with a user-friendly command-line in
+                            terface.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+
+                </div>
+            </div>
+            <a href="#" class="btn sm">See more</a>
+        </div>
+    </div>
+    <!-- --------------------contact--------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-square-envelope"></i> lalithsainusum217@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> 9515700684</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/nusum.lalithsai?mibextid=ZbWKwL"><i
+                                class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/lalith_sai_684?igsh=bmhvcTN4YzN3dHV2"><i
+                                class="fa-brands fa-instagram"></i></a>
+                        <a href="https://x.com/NusumS35356?t=P0dwyQPKwat4FdHZ8xmcPQ&s=08 "><i
+                                class="fa-brands fa-twitter-square"></i></a>
+                        <a
+                            href="https://www.linkedin.com/in/nusum-lalith-sai-30a826284?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="/images/my-resume.pdf" download class="btn btn2">Download Resume</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Thanks For Visiting My Portfolio <i class="fa-solid fa-heart"></i></p>
+        </div>
+    </div>
+    <script>
+        var tablinks = document.querySelectorAll(".tab-links");
+        var tabcontents = document.querySelectorAll(".tab-contents");
+
+        function opentab(tabname) {
+            for (let tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (let tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            document.getElementById(tabname).classList.add("active-tab");
+            event.currentTarget.classList.add("active-link");
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxa2LOa0yhWWFWCUtQg5-_finyq6E0E_lwDHMUC2Hj74b49fFp7AJvuHe41MPLPz7bO3w/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message Sent Successfully"
+                    setTimeout(function () {
+                        msg.innerHTML = ""
+                    }, 5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+</body>
+
+</html>
