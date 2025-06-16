@@ -429,6 +429,11 @@ nav .fas{
     .tab-titles, .tab-contents {
         position: static;
     }
+    .tbtn{
+        width: 35% !important;
+        font-size: small;
+        margin-top: 20px;
+    }
     
 }
 #msg{
