@@ -18,6 +18,10 @@ body{
     background-size: cover;
     background-position: center;
 }
+.tbtn{
+    font-size: medium;
+    width: 20% !important;
+}
 .container{
     padding:10px 10%;
 }
